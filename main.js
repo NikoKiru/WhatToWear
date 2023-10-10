@@ -16,4 +16,7 @@ function recomendedCloths(temperature) {
     }
 }
 
-const clothsToWear = console.log(recomendedCloths(18));
+let temperatureOutside = prompt("How many degrees celcius is it outside?")
+
+ console.log(recomendedCloths(temperatureOutside));
+
