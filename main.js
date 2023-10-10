@@ -1,7 +1,4 @@
 //Create a function (that you have to name) that has temperature as parameter.
-// Based on the temperature it should return a string with what the user should wear.
-// You decide what the user should wear based on the temperature.
-// An example is:
 function recomendedCloths(temperature) {
     if (temperature >= 30) {
         return "a tank top and shorts"
